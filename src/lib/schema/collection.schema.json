@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://intimacy-menu-generator.local/schema/collection/v1",
+  "title": "Intimacy Menu",
+  "description": "An intimacy menu",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "title", "sections"],
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "title": {
+      "$ref": "#/$defs/nonEmptyString"
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/section"
+      }
+    }
+  },
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "pattern": ".*\\S.*"
+    },
+    "section": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "activities"],
+      "properties": {
+        "title": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "activities": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/activity"
+          }
+        }
+      }
+    },
+    "activity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title"],
+      "properties": {
+        "title": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "tags": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
+        },
+        "attributes": {
+          "type": "array",
+          "minItems": 1,
+          "x-uniqueBy": "icon",
+          "items": {
+            "$ref": "#/$defs/attribute"
+          }
+        }
+      }
+    },
+    "attribute": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["icon", "value"],
+      "properties": {
+        "icon": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "value": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    }
+  }
+}

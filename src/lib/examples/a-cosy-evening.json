@@ -1,0 +1,178 @@
+{
+  "version": 1,
+  "title": "A cosy evening",
+  "sections": [
+    {
+      "title": "Slow starts",
+      "activities": [
+        {
+          "title": "Tea and catch up",
+          "tags": ["Indoors", "Conversation"],
+          "attributes": [
+            { "icon": "⚡", "value": 1 },
+            { "icon": "⏱️", "value": 2 }
+          ]
+        },
+        {
+          "title": "Hot drink on the balcony",
+          "tags": ["Outdoors", "Conversation"],
+          "attributes": [
+            { "icon": "⚡", "value": 1 },
+            { "icon": "⏱️", "value": 2 }
+          ]
+        },
+        {
+          "title": "Listen to an album",
+          "tags": ["Indoors", "Music"],
+          "attributes": [
+            { "icon": "⚡", "value": 1 },
+            { "icon": "⏱️", "value": 3 }
+          ]
+        },
+        {
+          "title": "Evening walk",
+          "tags": ["Outdoors", "Movement"],
+          "attributes": [
+            { "icon": "⚡", "value": 2 },
+            { "icon": "⏱️", "value": 3 }
+          ]
+        },
+        {
+          "title": "Look through old photos",
+          "tags": ["Indoors", "Nostalgia"],
+          "attributes": [
+            { "icon": "⚡", "value": 1 },
+            { "icon": "⏱️", "value": 2 }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Shared supper",
+      "activities": [
+        {
+          "title": "Cook dinner together",
+          "tags": ["Indoors", "Food"],
+          "attributes": [
+            { "icon": "⚡", "value": 2 },
+            { "icon": "⏱️", "value": 3 }
+          ]
+        },
+        {
+          "title": "Try a new recipe",
+          "tags": ["Indoors", "Food", "Creative"],
+          "attributes": [
+            { "icon": "⚡", "value": 3 },
+            { "icon": "⏱️", "value": 4 }
+          ]
+        },
+        {
+          "title": "Order take away",
+          "tags": ["Indoors", "Food"],
+          "attributes": [
+            { "icon": "⚡", "value": 1 },
+            { "icon": "⏱️", "value": 1 }
+          ]
+        },
+        {
+          "title": "Picky-bits dinner",
+          "tags": ["Indoors", "Food"],
+          "attributes": [
+            { "icon": "⚡", "value": 2 },
+            { "icon": "⏱️", "value": 2 }
+          ]
+        },
+        {
+          "title": "Meal plan and drinks",
+          "tags": ["Indoors", "Planning", "Food"],
+          "attributes": [
+            { "icon": "⚡", "value": 2 },
+            { "icon": "⏱️", "value": 3 }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Little extras",
+      "activities": [
+        {
+          "title": "Play a card game",
+          "tags": ["Indoors", "Games"],
+          "attributes": [
+            { "icon": "⚡", "value": 3 },
+            { "icon": "⏱️", "value": 3 }
+          ]
+        },
+        {
+          "title": "Do a crossword",
+          "tags": ["Indoors", "Games"],
+          "attributes": [
+            { "icon": "⚡", "value": 1 },
+            { "icon": "⏱️", "value": 2 }
+          ]
+        },
+        {
+          "title": "Watch TV",
+          "tags": ["Indoors", "Screen time"],
+          "attributes": [
+            { "icon": "⚡", "value": 1 },
+            { "icon": "⏱️", "value": 3 }
+          ]
+        },
+        {
+          "title": "Do some DIY",
+          "tags": ["Indoors", "Practical", "Creative"],
+          "attributes": [
+            { "icon": "⚡", "value": 3 },
+            { "icon": "⏱️", "value": 3 }
+          ]
+        },
+        {
+          "title": "Read together",
+          "tags": ["Indoors", "Quiet"],
+          "attributes": [
+            { "icon": "⚡", "value": 1 },
+            { "icon": "⏱️", "value": 3 }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sweet finish",
+      "activities": [
+        {
+          "title": "Share a dessert",
+          "tags": ["Indoors", "Food"],
+          "attributes": [
+            { "icon": "⚡", "value": 1 },
+            { "icon": "⏱️", "value": 1 }
+          ]
+        },
+        {
+          "title": "Watch a new film",
+          "tags": ["Indoors", "Screen time"],
+          "attributes": [
+            { "icon": "⚡", "value": 1 },
+            { "icon": "⏱️", "value": 4 }
+          ]
+        },
+        {
+          "title": "Bath time",
+          "tags": ["Indoors", "Self care", "Quiet"],
+          "attributes": [
+            { "icon": "⚡", "value": 1 },
+            { "icon": "⏱️", "value": 2 }
+          ]
+        },
+        {
+          "title": "Plan for the weekend",
+          "tags": ["Indoors", "Planning", "Conversation"],
+          "attributes": [
+            { "icon": "⚡", "value": 2 },
+            { "icon": "⏱️", "value": 2 }
+          ]
+        }
+      ]
+    }
+  ]
+}

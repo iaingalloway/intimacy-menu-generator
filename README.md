@@ -10,14 +10,14 @@ Collections are presented either as menus - as in a restaurant - or as decks of 
 
 ## User stories
 
-- **Collection creation**: Create and edit containers for activities which can be viewed as a menu or a deck
-- **Activity creation**: Create and edit activities within collections
-  - **Tags**: Assign tags to activities for easier categorization and filtering
-  - **Attributes**: Assign attributes such as energy, time, and spice level to help choose what suits the moment
-- **Views**
-  - **Printable menu**: Produce a print-friendly menu from a collection
-  - **Printable deck**: Produce cards that can be printed, cut out, and used physically
-  - **Interactive deck**: Browse, search, shuffle, lay out, and draw cards in a web interface
+- [ ] **Collection creation**: Create and edit containers for activities which can be viewed as a menu or a deck
+- [ ] **Activity creation**: Create and edit activities within collections
+  - [ ] **Tags**: Assign tags to activities for easier categorization and filtering
+  - [ ] **Attributes**: Assign attributes such as energy, time, and spice level to help choose what suits the moment
+- [ ] **Views**
+  - [ ] **Printable menu**: Produce a print-friendly menu from a collection
+  - [ ] **Printable deck**: Produce cards that can be printed, cut out, and used physically
+  - [ ] **Interactive deck**: Browse, search, shuffle, lay out, and draw cards in a web interface
 
 ## Consent and boundaries
 
@@ -38,55 +38,46 @@ The import/export format should be versioned, human-readable, and diffable. Expo
 ## Example collection
 
 ```yaml
+version: 1
 title: A cosy evening
 sections:
   - title: Slow starts
     activities:
-      - title: Make tea and catch up
+      - title: Tea and catch up
         tags: [Indoors, Conversation]
         attributes:
-          - label: Energy
-            icon: lightning
+          - icon: "⚡"
             value: 1
-          - label: Time
-            icon: clock
+          - icon: "⏱️"
             value: 2
-      - title: Listen to an album together
+      - title: Listen to an album
         tags: [Indoors, Music]
         attributes:
-          - label: Energy
-            icon: lightning
+          - icon: "⚡"
             value: 1
-          - label: Time
-            icon: clock
+          - icon: "⏱️"
             value: 2
       - title: Play a card game
         tags: [Indoors, Games]
         attributes:
-          - label: Energy
-            icon: lightning
+          - icon: "⚡"
             value: 2
-          - label: Time
-            icon: clock
+          - icon: "⏱️"
             value: 3
   - title: Shared time
     activities:
       - title: Cook dinner together
         tags: [Indoors, Food]
         attributes:
-          - label: Energy
-            icon: lightning
+          - icon: "⚡"
             value: 3
-          - label: Time
-            icon: clock
+          - icon: "⏱️"
             value: 4
-      - title: Take an evening walk
+      - title: Evening walk
         tags: [Outdoors, Conversation]
         attributes:
-          - label: Energy
-            icon: lightning
+          - icon: "⚡"
             value: 2
-          - label: Time
-            icon: clock
+          - icon: "⏱️"
             value: 3
 ```
