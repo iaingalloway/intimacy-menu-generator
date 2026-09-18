@@ -1,0 +1,12 @@
+{
+  "name": "intimacy-menu-generator-devcontainer",
+  "image": "ghcr.io/iaingalloway/devcontainers/javascript:1.5.57",
+  "remoteEnv": {
+    "HOST_WORKSPACE_PATH": "${localWorkspaceFolder}"
+  },
+  "runArgs": [
+    "--name",
+    "intimacy-menu-generator-devcontainer",
+    "--network=host"
+  ]
+}
