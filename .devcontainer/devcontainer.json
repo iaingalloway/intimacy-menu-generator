@@ -9,6 +9,11 @@
   "remoteEnv": {
     "HOST_WORKSPACE_PATH": "${localWorkspaceFolder}"
   },
+  "customizations": {
+    "vscode": {
+      "extensions": ["svelte.svelte-vscode"]
+    }
+  },
   "runArgs": [
     "--name",
     "intimacy-menu-generator-devcontainer",
