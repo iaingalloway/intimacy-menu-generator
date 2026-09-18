@@ -1,6 +1,11 @@
 {
   "name": "intimacy-menu-generator-devcontainer",
   "image": "ghcr.io/iaingalloway/devcontainers/javascript:1.5.57",
+  "features": {
+    "ghcr.io/iaingalloway/features/sval:1.0.0": {
+      "version": "1.0.0"
+    }
+  },
   "remoteEnv": {
     "HOST_WORKSPACE_PATH": "${localWorkspaceFolder}"
   },

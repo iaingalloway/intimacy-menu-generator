@@ -1,0 +1,9 @@
+{
+  "features": {
+    "ghcr.io/iaingalloway/features/sval:1.0.0": {
+      "version": "1.0.0",
+      "resolved": "ghcr.io/iaingalloway/features/sval@sha256:4a87820e70778bdc31ffce272b2ad00a7533fea2b4c9040c8aafb41f39b9dd22",
+      "integrity": "sha256:4a87820e70778bdc31ffce272b2ad00a7533fea2b4c9040c8aafb41f39b9dd22"
+    }
+  }
+}
